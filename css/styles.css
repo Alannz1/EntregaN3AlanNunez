@@ -1,3 +1,25 @@
+/*general*/
 *{
     font-family: "Poppins", sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+/*header*/
+.headerInicio{
+    background-color: #EDE1D1;
+
+}
+.logoHeader{
+    width: 15%;
+    padding: 1rem;
+}
+
+
+/*body*/
+
+
+/*footer*/
+
