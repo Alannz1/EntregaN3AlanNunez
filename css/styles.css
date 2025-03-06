@@ -209,7 +209,34 @@ header{
 
 
 
+/*--------Contacto--------*/
 
+main h1{
+    text-align: center;
+}
+.contactoMsj{
+    background-color: #ede1d1a8;
+    margin: 5rem 0rem 5rem 0rem;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactoMsj ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.sobreNosotros{
+    background-color: #ede1d1a8;
+    margin: 5rem 0rem 5rem 0rem;
+}
+
+.sobreNosotros p{
+    text-align: center;
+}
 
 
 

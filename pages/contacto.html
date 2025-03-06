@@ -39,7 +39,8 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link mx-lg-2 active" aria-current="page" href="../index.html">Inicio</a>
+                                    <a class="nav-link mx-lg-2 active" aria-current="page"
+                                        href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mx-lg-2" href="./productos.html">Productos</a>
@@ -63,8 +64,28 @@
 
     <main>
 
+        <section class="contactoMsj">
+            <h2>Contacto</h2>
+            <form action="/submit" method="post">
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </li>
+                    <li><label for="correoElectronico">Correo electrónico</label>
+                        <input type="text" name="correoElectronico" id="correoElectronico">
+                    </li>
+                    <li><label for="comentario">Mensaje</label>
+                        <textarea type="text" name="comentario" id="comentario">
+                    </li>
+                </ul>
+            </form>
+
+        </section>
+
+
     </main>
-<hr>
+
     <footer>
         <section class="redesFooter">
                 <h3>Redes Sociales</h3>
