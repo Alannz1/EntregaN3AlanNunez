@@ -216,7 +216,7 @@ main h1{
 }
 .contactoMsj{
     background-color: #ede1d1a8;
-    margin: 5rem 0rem 5rem 0rem;
+    margin: 5rem 0 5rem 0;
     padding: 5rem;
     display: flex;
     align-items: center;
