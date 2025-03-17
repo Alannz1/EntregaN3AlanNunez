@@ -213,6 +213,7 @@ header{
 
 main h1{
     text-align: center;
+    padding: 1rem;
 }
 .contactoMsj{
     background-color: #ede1d1a8;
@@ -223,8 +224,9 @@ main h1{
     flex-direction: column;
 }
 
-.contactoMsj ul{
-    list-style: none;
+.contactoMsj form{
+    display: flex;
+    flex-direction: column;
     padding: 0;
 }
 
