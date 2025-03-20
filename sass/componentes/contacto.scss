@@ -1,0 +1,23 @@
+$colorTitulo: #6a704c;
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    color: $colorTitulo;
+}
+
+.contactoMsj {
+    background-color: #ede1d1a8;
+    margin: 5rem 0 5rem 0;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+    form {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+}

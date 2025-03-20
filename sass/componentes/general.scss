@@ -1,0 +1,33 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .carrusel img {
+        height: 22rem;
+    }
+
+    .productos {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carrusel img {
+        height: 31rem;
+    }
+
+    .categorias {
+        padding-top: 3rem;
+    }
+
+    .productos {
+        display: flex;
+        flex-direction: row;
+    }
+}
