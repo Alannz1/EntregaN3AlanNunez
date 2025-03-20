@@ -1,0 +1,12 @@
+@import "../utilities/mixins.scss";
+@import "../utilities/variables.scss";
+
+.comoComprar {
+    background-color: #ede1d1a8;
+    margin: 5rem 0rem 5rem 0rem;
+    padding: 5rem;
+
+    h2{
+        @include titulo(center, 2rem, $colorTitulo);
+    }
+}

@@ -1,4 +1,7 @@
-$colorTitulo: #6a704c;
+@import "../utilities/mixins.scss";
+@import "../utilities/extend.scss";
+@import "../utilities/variables.scss";
+
 
 .carrusel {
     margin: 0 auto;
@@ -13,22 +16,18 @@ $colorTitulo: #6a704c;
 }
 
 .categorias {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-top: 3rem;
+   
+    @extend %flexBasico;
 
-    h2 {
-    font-size: 2rem;
-    color: $colorTitulo;
-}
-
+    h2{
+        @include titulo(center, 1.5rem, $colorTitulo);
+    }
     ul {
+    display: inline-flex;
     list-style: none;
     padding: 0
-}
-
-img {
+    }
+ img {
     width: 17rem;
     padding: 1rem;
 }
@@ -37,5 +36,5 @@ img {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
 }
-}
 
+}

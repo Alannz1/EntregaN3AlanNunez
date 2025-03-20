@@ -1,0 +1,22 @@
+@import "../utilities/mixins.scss";
+@import "../utilities/variables.scss";
+@import "../utilities/extend.scss";
+
+    h2{
+        @include titulo(center, 1rem, $colorTitulo);
+    }
+
+
+.contactoMsj {
+    background-color: #ede1d1a8;
+    margin: 5rem 0 5rem 0;
+    padding: 5rem;
+    @extend %flexBasico;
+ 
+    form {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+}

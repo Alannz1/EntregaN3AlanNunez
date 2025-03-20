@@ -1,0 +1,7 @@
+@mixin titulo ($text-align, $margin, $color) {
+    text-align: $text-align;
+    margin: $margin;
+    color: $colorTitulo;
+}
+
+

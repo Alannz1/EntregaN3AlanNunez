@@ -1,4 +1,5 @@
-$colorTitulo: #6a704c;
+@import "../utilities/mixins.scss";
+@import "../utilities/variables.scss";
 
 .sobreNosotros {
     background-color: #ede1d1a8;
@@ -13,7 +14,8 @@ $colorTitulo: #6a704c;
 }
 
     h2{
-        color: $colorTitulo;
+        @include titulo(center, 1rem, $colorTitulo);
     }
 
 }
+

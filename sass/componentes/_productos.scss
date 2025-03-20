@@ -1,22 +1,23 @@
-$colorTitulo: #6a704c;
+@import "../utilities/mixins.scss";
+@import "../utilities/variables.scss";
 
-.tituloProd {
-    text-align: center;
-    margin-top: 2rem;
 
-    color: $colorTitulo;
-}
+
+main h2{
+        @include titulo(center, 4rem, $colorTitulo);
+    }
+
 
 .tarjetaProducto {
     background-color: #ede1d1;
     border-radius: 0.5rem;
-    width: 10rem;
-    display: flex;
+    width: 15rem;
+    display: inline-flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     border: #ffffff solid 1px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 
     &:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -24,7 +25,7 @@ $colorTitulo: #6a704c;
 }
 
 .imgProd {
-    width: 8rem;
+    width: 10rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
     #imgProd {
