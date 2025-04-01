@@ -7,6 +7,15 @@ main h2{
         @include titulo(center, 4rem, $colorTitulo);
     }
 
+    .productos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Se adapta a distintos tamaños */
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
+     
+    }
 
 .tarjetaProducto {
     background-color: #ede1d1;
@@ -21,6 +30,10 @@ main h2{
 
     &:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    h3{
+        text-align: center;
     }
 }
 
