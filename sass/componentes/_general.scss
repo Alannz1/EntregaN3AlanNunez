@@ -6,14 +6,20 @@ a {
     text-decoration: none;
 }
 
+
+
 @media (min-width: 768px) {
     .carrusel img {
         height: 22rem;
     }
 
     .productos {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
     }
 }
 
@@ -27,8 +33,11 @@ a {
     }
 
     .productos {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2rem 0;
     }
 }
