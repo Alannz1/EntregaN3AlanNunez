@@ -61,7 +61,6 @@
   grid-row: span 4;
   position: relative;
   display: grid;
-  place-items: center;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -70,11 +69,6 @@
 .categoriasGrid .caja2 {
   position: relative;
   display: grid;
-  place-items: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
   grid-column: span 1;
   grid-row: span 2;
 }
@@ -288,7 +282,7 @@ main h2 {
 .sobreNosotros {
   background-color: rgba(237, 225, 209, 0.6588235294);
   margin: 5rem 0rem 5rem 0rem;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 2rem 0rem 3rem 0rem;
 }
 .sobreNosotros p {
   text-align: center;
@@ -316,7 +310,7 @@ h2 {
 .contactoMsj {
   background-color: rgba(237, 225, 209, 0.6588235294);
   margin: 5rem 0 5rem 0;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem 0rem 3rem 0rem;
 }
 .contactoMsj form {
   display: flex;

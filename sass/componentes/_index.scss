@@ -85,9 +85,8 @@
     grid-row: span 4;
 
         position: relative;
-        
         display: grid;
-        place-items: center;
+      
         color: white;
         font-size: 20px;
         font-weight: bold;
@@ -98,15 +97,11 @@
 
 .caja2{
     position: relative;
-   
     display: grid;
-    place-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
     grid-column: span 1;
     grid-row: span 2;
+    
+   
 }
 
 .caja3{
